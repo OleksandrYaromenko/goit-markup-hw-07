@@ -1,0 +1,29 @@
+.main__benefits {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.benefits__icons {
+    padding: 25px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--team-color);
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+.benefits__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--black-color);
+    letter-spacing: 0.03em;
+}
+
+.benefits__paragraph {
+    font-size: 14px;
+    line-height: 1.714;
+    color: var(--gray-color);
+    letter-spacing: 0.03em;
+}

@@ -1,0 +1,54 @@
+.body {
+    font-family: var(--font-family-ronoto);
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+a {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.visually__hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section__h {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
