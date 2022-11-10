@@ -8,7 +8,7 @@
   font-size: 26px;
   line-height: 1.191;
   color: var(--black-color);
-}
-.header__logo--web {
-  color: var(--blue-color);
+  &--web {
+    color: var(--blue-color);
+  }
 }

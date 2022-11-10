@@ -1,11 +1,11 @@
 .header {
   border-bottom: 1px solid var(--border-color);
-}
-.header__position {
-  flex-grow: 3;
-}
-.header__section {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  &__position {
+    flex-grow: 3;
+  }
+  &__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 }

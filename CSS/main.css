@@ -114,13 +114,11 @@ img {
 .header {
   border-bottom: 1px solid var(--border-color);
 }
-
 .header__position {
   -webkit-box-flex: 3;
       -ms-flex-positive: 3;
           flex-grow: 3;
 }
-
 .header__section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -142,7 +140,6 @@ img {
   line-height: 1.191;
   color: var(--black-color);
 }
-
 .header__logo--web {
   color: var(--blue-color);
 }
@@ -201,7 +198,7 @@ img {
   border-radius: 2px;
 }
 
-.header__contacts {
+.contacts {
   list-style: none;
   font-weight: 500;
   display: -webkit-box;
@@ -210,12 +207,10 @@ img {
   margin: 0 0 0 auto;
   gap: 30px;
 }
-
 .contacts__svg {
   margin-right: 10px;
   fill: var(--gray-color);
 }
-
 .contacts__img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -227,7 +222,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .contacts__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,16 +237,11 @@ img {
   -webkit-transition: color 250ms var(--time-hover);
   transition: color 250ms var(--time-hover);
 }
-
 .contacts__link:hover .contacts__svg {
   fill: var(--blue-color);
 }
 
-.contacts__link:hover {
-  color: var(--blue-color);
-}
-
-.main__title {
+.title {
   max-width: 1600px;
   margin: 0 auto;
   padding-top: 200px;
@@ -264,7 +253,6 @@ img {
   background-size: cover;
   background-position: center;
 }
-
 .title__h {
   text-transform: uppercase;
   text-align: center;
@@ -277,7 +265,6 @@ img {
   color: var(--white-color);
   letter-spacing: 0.06em;
 }
-
 .title__button {
   display: block;
   padding: 10px 32px;
@@ -295,20 +282,18 @@ img {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
 .title__button:active {
   -webkit-filter: drop-shadow(0px 12px 12px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 12px 12px rgba(0, 0, 0, 0.25));
 }
 
-.main__benefits {
+.benefits {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
-
 .benefits__icons {
   padding: 25px 10px;
   display: -webkit-box;
@@ -324,7 +309,6 @@ img {
   margin-bottom: 30px;
   border-radius: 4px;
 }
-
 .benefits__title {
   margin-bottom: 10px;
   font-size: 14px;
@@ -332,7 +316,6 @@ img {
   color: var(--black-color);
   letter-spacing: 0.03em;
 }
-
 .benefits__paragraph {
   font-size: 14px;
   line-height: 1.714;
@@ -370,12 +353,11 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.main__team {
+.team {
   background-color: var(--team-color);
   padding-bottom: 94px;
   padding-top: 94px;
 }
-
 .team__list {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -385,7 +367,6 @@ img {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--white-color);
 }
-
 .team__name {
   padding: 30px 0 10px;
   text-align: center;
@@ -394,7 +375,6 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-
 .team__position {
   padding-bottom: 16px;
   text-align: center;
@@ -403,7 +383,6 @@ img {
   color: var(--gray-color);
   letter-spacing: 0.03em;
 }
-
 .team__social {
   height: 44px;
   gap: 10px;
@@ -418,7 +397,6 @@ img {
           justify-content: center;
   margin-bottom: 30px;
 }
-
 .team__icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -436,7 +414,6 @@ img {
   -webkit-transition: background-color, fill 250ms var(--time-hover);
   transition: background-color, fill 250ms var(--time-hover);
 }
-
 .team__icon:hover {
   background-color: var(--blue-color);
   fill: var(--white-color);
@@ -450,17 +427,16 @@ img {
   -webkit-transition: border-color, fill 250ms var(--time-hover);
   transition: border-color, fill 250ms var(--time-hover);
 }
-
 .logo__icon:hover {
   border-color: var(--blue-color);
   fill: var(--blue-color);
 }
 
-.contacts {
+.address {
   padding-top: 20px;
   padding-right: 70px;
 }
-.contacts__logo {
+.address__logo {
   display: block;
   font-style: normal;
   list-style: none;
@@ -472,14 +448,14 @@ img {
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
-.contacts__web {
+.address__web {
   color: var(--blue-color);
 }
-.contacts__list {
+.address__list {
   list-style: none;
   padding-bottom: 9px;
 }
-.contacts__list--adres {
+.address__list--adres {
   font-style: normal;
   text-decoration: none;
   font-size: 14px;
@@ -489,7 +465,7 @@ img {
   -webkit-transition: color 250ms var(--time-hover);
   transition: color 250ms var(--time-hover);
 }
-.contacts__list--adres:hover, .contacts__list--contacts:hover {
+.address__list--adres:hover, .address__list--contacts:hover {
   color: var(--blue-color);
 }
 
