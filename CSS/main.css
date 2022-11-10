@@ -258,8 +258,8 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--title-color);
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--team-color-fon)), to(var(--team-color-fon))), url(../../../images/team-worling.jpg);
-  background-image: linear-gradient(to right, var(--team-color-fon), var(--team-color-fon)), url(../../../images/team-worling.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--team-color-fon)), to(var(--team-color-fon))), url(../images/team-worling.jpg);
+  background-image: linear-gradient(to right, var(--team-color-fon), var(--team-color-fon)), url(../images/team-worling.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
