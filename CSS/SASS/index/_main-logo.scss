@@ -1,0 +1,11 @@
+.logo__icon{
+  border: 1px solid var(--team-icon-color);
+border-radius: 4px;
+ padding: 16px 32px;
+ fill:var(--team-icon-color);
+  transition: border-color,fill 250ms var(--time-hover);
+}
+.logo__icon:hover{
+  border-color: var(--blue-color);
+  fill: var(--blue-color);
+}
